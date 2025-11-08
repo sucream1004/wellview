@@ -138,3 +138,12 @@ def compute_view_quality():
     fraction_nature = pos_pixels / total_pixels
     fraction_building = building_pixels / total_pixels
     return (fraction_nature - fraction_building)
+
+
+import os
+
+for fname in fnames:
+    save_name = fname.replace('\\rgb_', '\\semseg_')
+    if not os.path.exists(save_name):
+        result = semseg_cut_mask(fname)
+        result.save(save_name)
