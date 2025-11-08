@@ -6,7 +6,10 @@ It integrates photogrammetric 3D city models, virtual photography in Blender, an
 <br>
 
 <p align="center">
-  <img width="800" src="https://github.com/user-attachments/assets/f8cf4b1f-0547-4b9e-926b-0b35edaefb94" alt="WellView workflow pipeline">
+  <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/3b6a4aae-05ba-4c4e-8957-e32a15302f87" />
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/b7c39701-9a5b-424a-9c51-aa20995fb68e" />
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/81aa4268-ba1a-4639-a5a8-f9b8b77bced8" />
+
 </p>
 
 ---
