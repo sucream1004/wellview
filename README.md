@@ -6,14 +6,12 @@ It integrates photogrammetric 3D city models, virtual photography in Blender, an
 <br>
 
 <p align="center">
-  <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/3b6a4aae-05ba-4c4e-8957-e32a15302f87" />
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/3b6a4aae-05ba-4c4e-8957-e32a15302f87" />
 <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/b7c39701-9a5b-424a-9c51-aa20995fb68e" />
 <img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/81aa4268-ba1a-4639-a5a8-f9b8b77bced8" />
-
 </p>
 
 ---
-
 ## Features
 
 - **3D urban context**
@@ -23,8 +21,12 @@ It integrates photogrammetric 3D city models, virtual photography in Blender, an
   - Supports different design configurations (monolithic, grouped, individual windows).
 - **Virtual photography**
   - Multiple interior viewpoints are sampled per room to simulate what occupants see through the windows.
+  - <img width="880" height="367" alt="image" src="https://github.com/user-attachments/assets/a20a2a49-fcd5-432c-afa9-61dbaa699da5" />
+
 - **Semantic segmentation**
   - Rendered views are parsed with **Mask2Former** (via **Detectron2**) to classify pixels into classes such as *building, sky, greenery, water*.
+  - <img width="618" height="390" alt="image" src="https://github.com/user-attachments/assets/e0d74084-9e31-4da0-8c31-fa375a2e8c40" />
+
 - **Quantitative view index (WVQS)**
   - Computes a Window View Quality Score (WVQS) based on pixel-level semantic composition.
 - **Optimization**
